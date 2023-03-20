@@ -10,7 +10,6 @@ source ./_common.sh
 # IMPORT GENERIC HELPERS
 source /usr/share/yunohost/helpers
 
-
 # Create a system user
 ynh_system_user_create --username=$app --home_dir=$data_dir --groups ssh.app --use_shell
 
