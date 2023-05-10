@@ -55,6 +55,8 @@ ram.runtime = "50M"
         arm64.sha256 = "92057d4e09ef25cd2d01ad31cf0619ac93aa667ced4df9ae21c5b87dd5af3e1b"
         amd64.url = "https://codeberg.org/attachments/25eea495-ba85-4061-bec0-cf9823b63cb2"
         amd64.sha256 = "1184549434200479f910457910bb63f1a5a8781152e6364eb6c9b3235b489e57"
+        rename = "forgejo"
+        extract = false
 
 
     [resources.system_user]
