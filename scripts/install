@@ -97,7 +97,7 @@ ynh_script_progression --message="Creating a database..." --weight=3
 ynh_script_progression --message="Installing sources files..." --weight=10
 
 #REMOVEME? ynh_app_setting_set --app=$app --key=install_dir --value=$install_dir
-ynh_setup_source --dest_dir=$install_dir --source_id=$YNH_ARCH
+ynh_setup_source --dest_dir=$install_dir #--source_id=$YNH_ARCH
 
 mkdir -p "$install_dir/custom/conf"
 
